@@ -1,0 +1,25 @@
+/*Your CSS Comment*/
+
+/*
+------------------------------
+Our Background Area 
+------------------------------
+*/
+.bg {
+	width: 900px;
+	height: 400px;
+	background-color: gray;
+	background-image: url("images/logo-star.png");
+	background-repeat: no-repeat;
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+	/*background-position: bottom right;*/
+	/*background-position: bottom center;*/
+	/*background-position: left center;*/
+	/*background-position: center;*/
+	/*background-size: cover;*/
+	/*background-size: 100% 100%;*/
+	/*background-size: contain;*/
+	background-size: 200px 200px;
+	background-attachment: fixed;
+}

@@ -1,0 +1,10 @@
+.sumon:after {
+	content: "+";
+	font-size: 40px;
+	color: red;
+	font-weight: bold;
+}
+
+.sumon.raihan:after {
+	content: "-"
+}

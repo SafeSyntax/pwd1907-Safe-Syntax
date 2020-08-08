@@ -1,0 +1,12 @@
+.navbar-brand {
+    max-width: 200px;
+}
+.navbar-brand img {
+    width: 100%;
+}
+.nav-me {
+    width: 20px;
+    height: 2px;
+    background: red;
+    display: inline-block;
+}

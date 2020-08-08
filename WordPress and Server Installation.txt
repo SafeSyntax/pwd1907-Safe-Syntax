@@ -1,0 +1,25 @@
+Step 1: Run The Server
+Step 2: Copy Wordpress and Paste the directory (www/htdoc)
+Step 3: Data Base Creation (localhost/phpmyadmin)
+user name: root
+
+Step 4: WordPress Installation
+i. localhost/yourFolderName
+ii.Continue
+iii.Let's go
+iv. 
+	-
+Database Name: pwd1907
+Username: root
+Password: 
+Database Host: localhost
+Table Prfix: As you wish
+Submit
+
+v.Run The Installation
+vi.Fill Up the information (user, password, mail) 
+Install WordPress
+
+For WordPress Login
+___________________
+localhost/pwd1907/wp-admin

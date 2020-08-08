@@ -1,0 +1,136 @@
+.test {
+	width: 100px;
+	height: 200px;
+	background: red;
+
+	left: 100px;
+}
+.test2 {
+	width: 100px;
+	height: 200px;
+	background: green;
+	position: relative;
+
+	left: 0;
+	top: 0;
+}
+
+
+
+.box {
+	width: 100px;
+	height: 200px;
+	background: blue;
+
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+
+
+
+.rel {
+	width: 100px;
+	height: 200px;
+	background: aqua;
+	position: relative;
+}
+.abs1 {
+	width: 100px;
+	height: 200px;
+	background: red;
+
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 10;
+}
+.abs2 {
+	width: 100px;
+	height: 200px;
+	background: yellow;
+
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	z-index: 10;
+}
+.abs3 {
+	width: 100px;
+	height: 200px;
+	background: pink;
+
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	
+}
+.abs4 {
+	width: 100px;
+	height: 200px;
+	background: gray;
+
+	position: absolute;
+	left: 40px;
+	top: 40px;
+}
+.abs5 {
+	width: 100px;
+	height: 200px;
+	background: blue;
+
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	z-index: -1;
+}
+
+
+
+
+.flag {
+	margin-top: 200px;
+	width: 400px;
+	height: 200px;
+	background: green;
+	position: relative;
+	margin: auto;
+}
+.circle {
+	width: 150px;
+	height: 150px;
+	background: red;
+	border-radius: 50%;
+
+	position: absolute;
+	left: 50%;
+	margin-left: -75px;
+	
+	bottom: 50%;
+	margin-bottom: -75px;
+	
+}
+
+.lathi {
+	width: 20px;
+	height: 400px;
+	background: gray;
+
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+
+.ball {
+	width: 40px;
+	height: 40px;
+	background: blue;
+	border-radius: 50%;
+
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	margin-left: -20px;
+	z-index: -3;
+}

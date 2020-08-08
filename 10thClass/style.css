@@ -1,0 +1,82 @@
+/*a:hover
+a:active
+a:focus*/
+ul.menu {
+	margin: 0;
+	padding: 0;
+}
+ul.menu li {
+	list-style: none;
+	display: inline-block;
+	font-size: 22px;
+	text-transform: uppercase;
+	background: red;
+	padding: 10px 20px;
+	color: #fff;
+}
+ul.menu li:first-child {
+	background: green;
+}
+ul.menu li:last-child {
+	background: blue;
+}
+ul.menu li:nth-child(3) {
+	background: gray;
+}
+ul.menu li:nth-child(8) {
+	background: yellow;
+}
+
+
+.list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.list li {
+	text-transform: uppercase;
+	background: pink;
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+.list li:nth-child(odd) {
+	background: aqua;
+}
+
+.list li:nth-child(even) {
+	background: red;
+}
+.list li:nth-child(odd):hover {
+	background: blue;
+	color: #fff;
+}
+.list li:nth-child(even):hover {
+	background: yellow;
+	color: red;
+}
+
+
+
+a:hover {
+	color: red;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+p:before {
+	content: url(Screenshot_1.png);
+	color: red;
+}
+p:hover:before {
+	content: url(a.png);
+}
+
+
+.any p:before {
+	content: "";
+}
+.any p:after {
+	content: " Sumon"
+}
+

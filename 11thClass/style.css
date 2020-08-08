@@ -1,0 +1,108 @@
+.social {
+	list-style: none;
+}
+.social li {
+	display: inline-block;
+}
+.social li a {
+	font-size: 30px;
+	color: green;
+}
+.social li a:hover {
+	color: red;
+}
+.social li a .fa-facebook {
+	color: #3b5998;
+}
+.social li a .fa-twitter {
+	color: #00acee ;
+}
+.social li a .fa-youtube {
+	color: red ;
+}
+.social li a .fa-instagram {
+	color: #3f729b  ;
+}
+
+
+
+
+.social2 {
+	list-style: none;
+}
+.social2 li {
+	display: inline-block;
+}
+.social2 li a {
+	display: inline-block;
+	background: red;
+	padding: 15px;
+	font-size: 22px;
+	color: #fff;
+	border-radius: 10px;
+	transition: .3s;
+
+}
+.social2 li a:hover {
+	background: blue;
+	color: yellow;
+
+}
+.social2 li a i {
+	transition: 1s;
+}
+.social2 li a.fb {
+	background: #3b5998;
+}
+.social2 li a.fb:hover {
+	background: aqua;
+}
+.social2 li a.tw {
+	background: #00acee ;
+}
+.social2 li a.tw:hover {
+	background: skyblue;
+}
+.social2 li a.yt {
+	background: red ;
+}
+.social2 li a.ins {
+	background: #3f729b  ;
+}
+
+.social2 li a:hover i {
+	transform: rotate(380deg);
+}
+img {
+	border-radius: 100px 10px 100px 0;
+	width: 300px;
+	height: 300px;
+}
+
+
+
+.social3 {
+	list-style: none;
+	background: url(1.jpg);
+	padding: 200px;
+	width: 300px;
+}
+.social3 li {
+	display: inline-block;
+}
+.social3 li a {
+	display: inline-block;
+	font-size: 40px;
+	padding: 15px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	border: 2px solid blue;
+	transition: .5s;
+}
+.social3 li a:hover {
+	background: red;
+	color: #fff;
+	border: 2px solid red;
+}

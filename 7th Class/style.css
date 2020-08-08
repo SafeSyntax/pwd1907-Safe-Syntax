@@ -1,0 +1,36 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+
+h4 {
+	color: red;
+	font-size: 100px;
+	font-weight: 700;
+}
+.sajol {
+	color: green;
+}
+.onnokichu {
+	background-color: red;
+	color: white;
+	font-size: 40px;
+
+	font-style: italic;
+
+	font-weight: 700;
+
+}
+
+.our-list {
+	
+}
+.our-list ul {
+	margin: 0;
+	padding: 0;
+}
+.our-list ul li {
+	list-style: none;
+	display: inline;
+	background: red;
+}

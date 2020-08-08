@@ -1,0 +1,63 @@
+/*.bg {
+	background-color: red;
+	background-image: url(images/logo-star.png), url(images/logo.png);
+	width: 700px;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: 50px 50px, 200px 200px;
+	background-position: bottom left, bottom right;
+}*/
+
+.bg {
+	/*background: url(images/logo-star.png);*/
+	width: 700px;
+	height: 500px;
+	background: url(images/1.jpg) red no-repeat top right / cover;
+
+	/*background-image: url(images/logo-star.png);
+	background-color: red;
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: cover;*/
+}
+
+p {
+	color: #EAC8A3;
+}
+
+
+
+.list {
+	margin-bottom: 15px;
+}
+.list ul {
+	margin: 0;
+	padding: 0;
+}
+.list ul li {
+	list-style: none;
+	display: inline-block;
+	background: red;
+	/*padding: 50px;*/
+	/*padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;*/
+	/*padding: 20px 50px 20px 50px;*/
+}
+.list ul li:hover {
+	/*background: green;*/
+}
+.list ul li a {
+	display: inline-block;
+	padding: 20px 50px 20px 50px;
+	background: red;
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.list ul li a:hover {
+	background: green;
+	color: yellow;
+}

@@ -1,0 +1,32 @@
+.content {
+	text-align: center;
+	border: 1px solid green;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+img {
+	display: block;
+	width: 100%;
+}
+
+
+.our-content {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.call {
+	background: blue;
+	padding: 50px;
+	color: #fff;
+}
+.text span {
+	font-size: 50px;
+}
+.my-button a {
+	color: #fff;
+	font-size: 23px;
+	padding: 10px 30px;
+}

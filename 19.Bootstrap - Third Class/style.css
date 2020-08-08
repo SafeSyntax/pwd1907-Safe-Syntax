@@ -1,0 +1,44 @@
+$sumon : green;
+
+
+ul {
+
+}
+ul li {
+
+}
+ul li a {
+	color: $sumon;
+}
+ul li a:hover {
+
+}
+
+
+
+.bg {
+	color: $sumon;
+}
+
+.content {
+	background: $sumon;
+}
+
+.any {
+	background: $sumon;
+}
+
+
+
+
+
+
+ul {
+	li {
+		a {
+			&:hover {
+
+			}
+		}
+	}
+}

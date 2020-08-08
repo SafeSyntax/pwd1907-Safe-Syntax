@@ -1,0 +1,9 @@
+body {
+	position: relative;
+}
+.navbar-brand {
+	max-width: 150px;
+}
+.navbar-brand img {
+	width: 100%;
+}

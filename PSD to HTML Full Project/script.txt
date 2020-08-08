@@ -1,0 +1,7 @@
+var container = document.querySelector('.gallery');
+
+        var mixer = mixitup(container, {
+            selectors: {
+                control: '[data-mixitup-control]'
+            }   
+        });

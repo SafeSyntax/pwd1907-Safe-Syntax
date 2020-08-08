@@ -1,0 +1,118 @@
+.box {
+	width: 200px;
+	height: 10px;
+	background: red;
+	position: relative;
+
+}
+/*.after {
+	width: 10px;
+	height: 10px;
+	background: red;
+	position: absolute;
+	right: 0;
+}
+.before {
+	width: 10px;
+	height: 10px;
+	background: red;
+	position: absolute;
+	left: 0;
+}*/
+
+.box:after {
+	content: "";
+	width: 10px;
+	height: 10px;
+	background: red;
+
+	position: absolute;
+	right: 0;
+	top: 100%;
+}
+.box:before {
+	content: "";
+	position: absolute;
+	background: rgba(0,137,233,.5);
+
+	width: 100%;
+	height: 100%;
+	transition: 2s;
+}
+.box:hover:before {
+}
+
+
+
+
+
+
+
+
+
+.section {
+	text-align: center;
+	margin-top: 100px;
+}
+.title {
+	position: relative;
+	display: inline-block;
+}
+.title h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.title span {
+	width: 10px;
+	height: 10px;
+	background: #0089e9;
+	display: block;
+
+	position: absolute;
+	left: 50%;
+	bottom: -15px;
+	margin-left: -5px;
+}
+.title:after {
+    content: "";
+    height: 3px;
+    width: 50%;
+    right: 0;
+    bottom: -12px;
+    background: green;
+    position: absolute;
+    z-index: -9;
+}
+.title:before {
+    content: "";
+    height: 3px;
+    width: 50%;
+    left: 0;
+    bottom: -12px;
+    background: green;
+    position: absolute;
+    z-index: -9;
+}
+
+ul {
+	width: 50px;
+}
+ul li {
+	list-style: none;
+	position: relative;
+	display: inline-block;
+}
+ul li:before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    position: absolute;
+    left: -11px;
+    top: 1px;
+}
+ul li:hover:before {
+	content: "\f101";
+	left: -15px;
+	color: red;
+}
